@@ -1,0 +1,1 @@
+Life is Tech ! Leaders 12期 Webサービスプログラミングコース Day4研修で行う確認テストのテンプレートです
