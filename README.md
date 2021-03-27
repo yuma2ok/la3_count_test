@@ -1,4 +1,4 @@
-# Leaders12th Web サービスコース Day5 確認テスト<br>カウントアプリを 0 から構築し、追加機能を実装せよ
+# Leaders13th Web サービスコース Day4 確認テスト<br>カウントアプリを 0 から構築し、追加機能を実装せよ
 
 ## レギュレーション
 
@@ -8,19 +8,13 @@
 - このレポジトリを clone し，実装を進め，制限時間内に commit してください
 - push はテスト終了後に全員同じタイミングで行います．
 
-## clone したらやること
+## 開発の準備
 
-- Kitematic でコンテナ作成
-- vscode からファイルを開いて、コンテナにアタッチ
-- `rake db:migrate`を入力して DB を作成
-- `ruby app.rb -o 0.0.0.0` と入力してちゃんと起動するか確認(できなかったら講師を呼んでね！)
-
-## commit の準備
-
-以下の二つのコマンドを打って、情報を登録しないとコミットできないよ
-
-- `git config --global user.email "you@example.com"`
-- `git config --global user.name "Your Name"`
+- 現在のパスが`~/environment/` であることを確認
+- `git clone <各自のレポジトリURL>` 各自の URL は GitHub の右上の緑色の箇所から確認できます
+- `cd 確認テストのディレクトリ名`で移動
+- `rake db:create`, `rake db:migrate`を入力して DB を準備
+- `ruby app.rb` と入力してちゃんと起動するか確認(できなかったら講師を呼んでね！)
 
 ## commit のやり方
 
@@ -30,7 +24,6 @@
 ## 提出のやり方
 
 - `git push origin master`
-- 正しいユーザー情報を入力する
 
 ## 要件
 
@@ -136,7 +129,7 @@
 
 ### LGTM の基準
 
-あみたん&かいかいがｲｲﾈ!とおもったこと．  
+かいかい&ちゃんりかがｲｲﾈ!とおもったこと．  
 例えば
 
 - 要求以上の機能ができている
