@@ -57,3 +57,31 @@ post '/plus2' do
   count.save
   redirect "/"
 end
+
+post '/minus2' do
+  count = Count.second
+  count.number = count.number - 1
+  count.save
+  redirect "/"
+end
+
+post '/clear2' do
+  count = Count.second
+  count.number = 0
+  count.save
+  redirect "/"
+end
+  
+post '/multTwo2' do
+  count = Count.second
+  count.number = count.number * 2
+  count.save
+  redirect "/"
+end
+
+post '/divTwo2' do
+  count = Count.second
+  count.number = count.number / 2
+  count.save
+  redirect "/"
+end
